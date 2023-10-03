@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ignacio Mena" />
+    <meta name="description" content="HTML, CSS, Bootstrap 5" />
+    <title>Tarea integradora</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- CSS -->
+  </head>
+  <body>
+    <header class="header">
+        <div class="header-container">
+          <div class="d-flex align-items-center">
+            <nav>
+              <a href="../../..">Inicio</a>
+              <a href="../forms">Formularios</a>
+              <a href="../boxModel">BoxModel</a>
+              <a href="../tables">Tablas</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+    <main>
+        <section class="main">
+          <h2 class="text-center">Inline</h2>
+          <div class="container d-flex boxesContainer rounded justify-content-center">
+            <div class="inlineBox"> a</div>
+            <div class="inlineBox"> b</div>
+            <div class="inlineBox"> c</div>
+          </div>
+          <h2 class="text-center">Block</h2>
+          <div class="container d-block boxesContainer rounded justify-items-center">
+            <div class="blockBox"> a</div>
+            <div class="blockBox"> b</div>
+            <div class="blockBox"> c</div>
+          </div>
+          <h2 class="text-center">Inlineblock</h2>
+          <div class="container d-flex boxesContainer rounded justify-content-center">
+            <div class="inlineBox d-inline-block"> a</div>
+            <div class="inlineBox d-inline-block"> b</div>
+            <div class="inlineBox d-inline-block"> c</div>
+          </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p class="text-center"> Ignacio Mena</p>
+        </section>
+    </footer>
+    <!-- Bootstrap scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap scripts -->
+  </body>
+</html>
