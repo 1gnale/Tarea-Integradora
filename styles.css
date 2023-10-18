@@ -1,82 +1,89 @@
-:root{
-    --color-1:#8fbfb9;
-    --color-2:#649ea7;
-    --color-3:#bddb88;
-    --color-4:#e0f3b2;
-    --color-5:#eefaa8;
-    --white: #f5f5f5;
-}
+:root {
+  --color-1: #8fbfb9;
+  --color-2: #649ea7;
+  --color-3: #bddb88;
+  --color-4: #e0f3b2;
+  --color-5: #eefaa8;
+  --white: #f5f5f5;
 
+  --bright-turquoise: #19d2e8;
+  --mauvelous: #f28db0;
+  --albescent-white: #f7eedc;
+  --mountain-mist: #D9D9D9;
+  --turkish-rose: #b7767c;
+  --violet-red: #f94890;
+  --perfume: #e695f2;
+  --domino: #8b725c;
+}
 
 header {
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
 }
-  
+
 .header-container {
-    background-color: var(--color-2);
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+  background-color: var(--color-2);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
-  
-  
+
 nav {
-    display: flex;
-    gap: 1rem;
-    position: relative;
-    right: 20%;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  right: 20%;
 }
 
 a {
-    color: var(--white);
-    text-decoration: none;
+  color: var(--white);
+  text-decoration: none;
 }
 
-.main{
-    /* height: 600px; */
-    padding: 4rem 0;
-    background-color: var(--color-3);
+.main {
+  /* height: 600px; */
+  padding: 4rem 0;
+  background-color: var(--color-3);
 }
 
-footer section{
-    padding: 1rem ;
-    background-color: var(--color-2);
+footer section {
+  padding: 1rem;
+  background-color: var(--color-2);
 }
 
-footer section p{
-    font-weight: bold;
+footer section p {
+  font-weight: bold;
 }
 
-.home{
-    padding: 3rem 0 ;
-    background-color: var(--color-4);
+.home {
+  padding: 3rem 0;
+  background-color: var(--color-4);
 }
 
-.panelText{
-    padding: 1.5rem;
+.panelText {
+  padding: 1.5rem;
 }
 
-h1{
-    padding: 1.5rem;
+h1 {
+  padding: 1.5rem;
 }
 
-h3{
-    padding: 1.5rem;
+h3 {
+  padding: 1.5rem;
 }
 
-.panelCarousel{
-    padding: 1.5rem;
+.panelCarousel {
+  padding: 1.5rem;
 }
 
-.btn-primary{
-    background-color: var(--color-5);
-    color: #000000;
-    border: none;
+.btn-primary {
+  background-color: var(--color-5);
+  color: #000000;
+  border: none;
 }
 
-.btn-primary:hover{
-    background-color: var(--color-1);
-    color: #000000;
-    border: none;
+.btn-primary:hover {
+  background-color: var(--color-1);
+  color: #000000;
+  border: none;
 }
